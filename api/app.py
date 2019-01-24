@@ -6,7 +6,7 @@ from flask import jsonify
 from models import Stocks as StocksModel
 from flask_cors import CORS
 
-connect('brainwaves', host='mongodb+srv://brainwavesapi:oySs6ZwZI6mxZWCj@cluster0-0uik1.mongodb.net/brainwaves', alias='default')
+connect('brainwaves', host='mongodb+srv://user:password@host/db', alias='default')
 
 
 app = Flask(__name__)
